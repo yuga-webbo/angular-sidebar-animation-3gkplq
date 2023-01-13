@@ -1,0 +1,6 @@
+<button (click)="toggleMenu()" class="hamburger">
+  <span>toggle menu</span>
+</button>
+<h1>{{name}} Sidebar</h1>
+
+<app-menu [@slideInOut]="menuState" ></app-menu>
